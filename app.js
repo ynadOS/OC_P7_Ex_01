@@ -3,6 +3,7 @@ const mongoose = require("mongoose")
 const app = express()
 
 const stuffRoutes = require("./routes/stuff.js")
+const userRoutes = require("./routes/user.js")
 
 mongoose.connect("mongodb+srv://champloo63:OpenclassroomsExercise01@cluster0.m7cs0z6.mongodb.net/",
 { useNewUrlParser: true,
